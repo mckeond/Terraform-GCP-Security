@@ -2,6 +2,7 @@
 # VPC network and subnetwork(s)
 # ----------------------------------------------------------------------------
 locals {
+  # Need to tailor the PROJECT NAME for each new project
   network_base_name = "{PROJECT-NAME}-${var.env_name}"
 
   # Internal DNS zones to redirect Google API requests to keep
