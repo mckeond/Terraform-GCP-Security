@@ -2,7 +2,7 @@
 # VPC network and subnetwork(s)
 # ----------------------------------------------------------------------------
 locals {
-  network_base_name = "xtrack-${var.env_name}"
+  network_base_name = "{PROJECT-NAME}-${var.env_name}"
 
   # Internal DNS zones to redirect Google API requests to keep
   # communication within the VPC
@@ -153,7 +153,7 @@ resource "google_service_networking_connection" "private_service_connection" {
 # VPC connector names have length limits
 resource "google_vpc_access_connector" "connector" {
   for_each      = var.region_cidrs
-  name          = "xtrack-${each.key}"
+  name          = "{PROJECT-NAME}-${each.key}"
   region        = each.key
   ip_cidr_range = each.value.connector_range
   network       = google_compute_network.vpc.name
