@@ -1,4 +1,5 @@
 variable "project_id" {
+  #Enter the Project name here
   default     = "{PROJECT}"
   description = "The ID of the project where this VPC will be created"
 }
