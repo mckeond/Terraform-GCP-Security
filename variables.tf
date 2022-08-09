@@ -23,6 +23,7 @@ variable "shared_vpc_host" {
 variable "subnets" {
   type        = list(map(string))
   description = "The list of subnets being created"
+  default     = []
 }
 
 variable "secondary_ranges" {
