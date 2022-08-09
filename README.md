@@ -1,12 +1,11 @@
-# Terraform-GCP-Security
+# Terraform-GCP-Security-Network
 
-This repository uses Terraform to build out fundamental google cloud security services to comply with best practices. My goal is to cover the following security-related services:
+This repository uses Terraform to build out fundamental google cloud network security services to comply with best practices. My goal is to cover the following security-related services:
 
-1. Networks (VPCs, firewalls, subnets, routes, etc.)
-2. Storage 
-3. Key and Secrets Management
-4. Data Protection
-5. Logging
+1. VPCs
+2. Firewalls
+3. Subnets
+4. Routes
 
 with more to come over time...
 
