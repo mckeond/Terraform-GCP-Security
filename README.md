@@ -7,6 +7,4 @@ This repository uses Terraform to build out fundamental google cloud network sec
 3. Subnets
 4. Routes
 
-with more to come over time...
-
 I leverage the existing Google Cloud and Haschicorp repo https://github.com/terraform-google-modules
