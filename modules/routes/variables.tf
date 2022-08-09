@@ -9,7 +9,7 @@ variable "network_name" {
 variable "routes" {
   type        = list(map(string))
   description = "List of routes being created in this VPC"
-  default     = []
+  default     = [10.128.0.0/20 , 10.130.0.0/20]
 }
 
 variable "module_depends_on" {
