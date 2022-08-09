@@ -8,4 +8,6 @@ This repository uses Terraform to build out fundamental google cloud security se
 4. Data Protection
 5. Logging
 
+with more to come over time...
+
 I leverage the existing Google Cloud and Haschicorp repo https://github.com/terraform-google-modules
