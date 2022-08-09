@@ -1,10 +1,10 @@
 variable "project_id" {
-  #Enter the Project name here
-  default     = "{PROJECT}"
+  # Will need to Enter the Project name here when Terraform is applied
   description = "The ID of the project where this VPC will be created"
 }
 
 variable "network_name" {
+  # Will need to Enter the Network name here when Terraform is applied
   description = "The name of the network being created"
 }
 
